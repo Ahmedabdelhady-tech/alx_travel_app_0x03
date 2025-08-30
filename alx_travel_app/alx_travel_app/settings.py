@@ -140,3 +140,12 @@ import os
 load_dotenv()
 CHAPA_SECRET_KEY = os.getenv("CHAPA_SECRET_KEY")
 CHAPA_PUBLIC_KEY = os.getenv("CHAPA_PUBLIC_KEY")
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+# Celery Config
+CELERY_BROKER_URL = "amqp://guest:guest@localhost//"
+CELERY_ACCEPT_CONTENT = ["json"]
+CELERY_TASK_SERIALIZER = "json"
+CELERY_RESULT_SERIALIZER = "json"
+CELERY_TIMEZONE = "UTC"
