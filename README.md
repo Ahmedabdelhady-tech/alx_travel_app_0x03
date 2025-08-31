@@ -1,4 +1,4 @@
-# 🧳 ALX Travel App 0x01
+# 🧳 ALX Travel App 0x03
 
 This project is part of the ALX backend specialization. It is a Django-based travel app that manages listings, bookings, and reviews with database seeding capabilities.
 
